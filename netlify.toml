@@ -23,3 +23,10 @@
     X-Content-Type-Options = 'nosniff'
     X-Frame-Options = 'DENY'
     X-XSS-Protection = '1; mode=block'
+
+[[redirects]]
+
+  from = 'https://quizzical-johnson-d3e9d2.netlify.app/*'
+  to = 'https://www.taggybook.com/:splat'
+  status = 302
+  force = true
