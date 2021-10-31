@@ -1,8 +1,18 @@
 body {
+  display: grid;
   font-family: sans-serif;
+  grid-gap: 20px;
+  justify-items: center;
   margin: 0;
   padding: 20px;
-  text-align: center;
+}
+
+header,
+main {
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+  max-width: 900px;
 }
 
 h1 {
@@ -11,12 +21,14 @@ h1 {
 
 img {
   height: auto;
-  margin: 20px 0;
   max-width: 750px;
   width: 100%;
 }
 
 p {
+  font-size: 1.1rem;
+  justify-self: start;
+  line-height: 1.35;
   margin: 0;
 }
 
