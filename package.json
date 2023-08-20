@@ -1,5 +1,8 @@
 {
   "private": true,
+  "staticFiles": {
+    "staticPath": "src/static"
+  },
   "scripts": {
     "dev": "parcel serve src/index.html src/404.html",
     "build": "parcel build src/index.html src/404.html",
@@ -13,6 +16,7 @@
   "dependencies": {
     "@parcel/transformer-image": "2.8.0",
     "parcel": "2.8.0",
+    "parcel-reporter-static-files-copy": "^1.5.2",
     "posthtml-expressions": "1.10.0"
   },
   "devDependencies": {
