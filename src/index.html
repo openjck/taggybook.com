@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{ GA_TRACKING_ID }}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "{{ GA_TRACKING_ID }}");
+    </script>
+
+    <meta charset="utf-8" />
+    <title>The Baby Without a Momma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A children's book about a small, black kitten named Taggy in search of a forever home. Written by two friends and inspired by a true story."
+    />
+    <link rel="stylesheet" href="./media/css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>The Baby Without a Momma</h1>
+    </header>
+    <main>
+      <img src="./media/img/compressed/cover.webp" alt="Book cover" />
+      <p>
+        <cite>The Baby Without a Momma</cite> is a children's book about a
+        small, black kitten named Taggy in search of a forever home. It was
+        written by two friends and is inspired by the true story of how one of
+        them rescued her cat, Taggy.
+      </p>
+      <p>
+        For more information or to order a copy, please
+        <a href="mailto:john.karahalis@gmail.com">contact the author</a>.
+      </p>
+    </main>
+  </body>
+</html>
